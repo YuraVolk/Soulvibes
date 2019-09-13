@@ -253,8 +253,10 @@ nav {
     margin-bottom: 30px;
 }
 
-.genres {
-    border-spacing: 20px 30px;
+.genres__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1020px;
     margin: 0 auto;
 }
 
@@ -268,6 +270,8 @@ nav {
     padding-top: 130px;
     font-weight: bold;
     font-size: 130%;
+    margin-left: 35px;
+    margin-bottom: 35px;
 }
 
 .genre--1::before {
